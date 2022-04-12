@@ -1,0 +1,59 @@
+{"intents":[
+    {"topics": "greetings",
+    "inputs": ["sup","hey","yo","hi","hello","morning","howdy","hola","good evening","good morning","good afternoon"],
+    "outputs": ["Hi, Welcome to customer support. What is your query?","Hey there! This is customer support. How can I help you?","Hi! What's up?","Greetings! This is customer support. What do you need help with?"]
+    },
+    {"topics": "goodbyes",
+        "inputs": ["Thank you!!!","bye","see you","see you","I'm heading out","I'm leaving","goodbye","adios","asta la vista"],
+        "outputs": ["I'll be here anytime for you!","It is my pleasure!","My pleasure!","You're welcome","Come back anytime","No problem"]
+    },
+    {"topics": "apologies",
+        "inputs": ["Oh! I'm so sorry","Oh I am so sorry","sorry","my bad","I apologize","pardon me","excuse my"],
+        "outputs": ["It's okay","It's alright","No worries","It's ok","No problem"]
+    },
+    {"topics": "delivery date",
+        "inputs": ["Why is my order taking long","When is it going to be delivered","What is the delivery date","How long should I wait for it","Will they take long to arrive","When will it arrive","How long does it take to ship","How slow is the shipping","How quick is the shipping","How many weeks should it take","Could you estimate the delivery date","Could you please give me an estimate of delivery time","By when should I expect to have it delivered"],
+        "outputs": ["Delivery times have been impacted by supply chain issues. To know more about your order you could ask for an order breakdown","I appreciate your patience. However, we've been struggling with the supply chain lately. I could bring up your order details if you ask me.","For delivery estimates you can request to see your order information"]
+    },
+    {"topics": "order details",
+        "inputs": ["Can I see my order details","How do I see my order details","Can I see my order information","How do I see my order information","Can I see my order info","How do I see my order info","Can I check my order information","How do I check my order information","Check order","See my order","I want to see information about my order","Show me my order details","Show me my purchase","Can I see my purchases"],
+        "outputs": ["Easy! Type in your 6-digit order number and I'll show it to you.","Type in your 6-digit order number"]
+    },
+    {"topics": "returns",
+        "inputs": ["how do I return","It is too big","It is too small","It doesn't fit","It's too large","It's too tight","My order sucks","These products suck","The item is broken","I'd like to return it","Can I get my money back If I return","Can I return for money or is it only in store credit?","Can I get store credit","How long do I have to return","What's the deadline for returns","Can I swap for a different item","The device is damaged","Can I get some information on returns","How do I return an item"],
+        "outputs": ["You can return an item and get a cash refund for up to 30 business days after the date of purchase. Items purchased on-sale can only be returned for store credit.","Items can be returned within 30 days or original purchase. If you purchased a product which was on sale, you can return it for store credit. Anything else can be refunded to your credit card."]
+    },
+    {"topics": "tech issues",
+        "inputs": ["why is my browser glitching","the page isn't loading","why isn't it letting me add to cart","I am trying to open the image but it won't load","the website froze","why is the website so slow"],
+        "outputs": ["That seems to me like a technological issue. You can get tech support 24/7 by calling +1 250 259 5769","For tech support call +1 250 258 5769","Sorry, that is outside my expertise. You can call +1 250 258 5769 for tech support."]
+    },
+    {"topics": "in-person shopping",
+        "inputs": ["Are you guys open for in-person shopping","Can I  buy at the store","Is the store open","Are stores open","Is it possible to shop in person"],
+        "outputs": ["Absolutely! We'd be pleased to have you visit us, following the covid-19 provincial guidelines","Yes, you can shop in person, wearing your mask","Definetely. We are open from Monday to Saturday from 9 am to 5 pm."]
+    },
+    {"topics": "trying clothes",
+        "inputs": ["Can I try","Can I try the item to see if it fits","Will it fit","I want to try it to to see if it fits","Am I able to try clothes on"],
+        "outputs": ["You can try clothes on when shopping in-person, except for underwear, of course.","You can try most items on when shopping in-person. Pay us a visit sometime."]
+    },
+    {"topics": "covid-19",
+        "inputs": ["Do I have to wear my mask at the store","Are masks mandatory","Is there a mask mandate","What are the covid guidelines"],
+        "outputs": ["You do have to wear a mask when shopping in person. For more info click on the covid button in the upper right corner.","There is a mask mandate which covers our stores. For more info click on covid in the upper right corner."]
+    },
+    {"topics": "cancelling",
+        "inputs": ["can I cancel my order","How do I cancel an order","Can I get a refund for an order","How to cancel"],
+        "outputs": ["You can cancel an order if it hasn't yet been shipped, and get a full refund. Otherwise, the only option is to return it. To do this call +1 778 258 5769.","You can cancel an order that hasn't yet been shipped, or return an order after it has been shipped. To do this call +1 778 258 5769."]
+    },
+    {"topics": "opening hours",
+        "inputs": ["When should I come","At what time do you guys open","Are you open on sundays","Do you open on weekends","When do you guys close"],
+        "outputs": ["We open at 9 am and close at 5 pm everyday except sundays.","You can come between 9 am and 5 pm everyday but sundays.","We're open 9 to 5 from monday to saturday."]
+    },
+    {"topics": "Store age",
+        "inputs": ["For how long have you been in business","How old is this store","Are you guys seasoned in selling clothes","This must be a really old brand"],
+        "outputs": ["We've been in business since 1917. We are titans at serving the community.","Our brand was established in 1917 by Lord Jorvan Rockefeller. We're proud to continue serving the community."]
+    },
+    {"topics": "directions",
+        "inputs":["How do I get there","can you give directions","directions please","I am lost","trying to get there","how do I go to the store","help with directions","I need directions"],
+        "outputs": [""]
+    }
+    
+]}

@@ -1,0 +1,23 @@
+{"orders":[
+    {"order number": "000000",
+    "customer name": "Lakvil Karnwal",
+    "items": ["Gucci belt","Gucci flip flops","Balenciaga socks"],
+    "price": "9999",
+    "purchase date": "04-01-2022",
+    "EST delivery date": "14-01-2022"
+    },
+    {"order number": "111111",
+    "customer name": "Abdulan Onwuvuche",
+    "items": ["Louis Vutton jacket","Patek Phillipe wristwatch","Air Force 1 sneakers"],
+    "price": "99999",
+    "purchase date": "14-02-2022",
+    "EST delivery date": "29-02-2022"
+    },
+    {"order number": "222222",
+    "customer name": "Durvan Almut",
+    "items": ["No name sneakers","No name chino pants"],
+    "price": "9",
+    "purchase date": "11-02-2022",
+    "EST delivery date": "31-06-2022"
+    }
+]}
