@@ -21,7 +21,7 @@ The Google Maps API was implemented.
 ### Assignment 3 tasks:
 
 #### GUI Implementation
-![GUI Screenshot](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/main/screenshots/botdemo.png)
+![GUI Screenshot](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/tree/main/screenshots/botdemo.png)
 
 The GUI was implemented using the Python tkinter module for graphical interfaces. Using this module we created a text box where the user enters their query/text. This helps the app become intuitivey easy-to-use for the user.
 
@@ -37,17 +37,17 @@ In the screenshot example above, one of the functions failed because the value o
 
 We used a natural language toolkit "Sentiment intensity analyzer" to obtain positivity and negativity scores from the words in the user input. This information was used to make conditional statements in which the response of the bot is either complemented or replaced (depending on the intensity) by a response designed to address the sentiment of the user.
 
-![Sentiment analysis demo](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/main/screenshots/sentimentdemo.png)
+![Sentiment analysis demo](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/tree/main/screenshots/sentimentdemo.png)
 
 #### Word stemming in ambiguous cases
 
 Word stemming was used in addition to unstemmed input. Our algorithm stems the user input if the bot is not able to find a probable intent (probability > 0.50).
 This helps to prevent inaccurate responses and can address suffixes.
 
-![Sentiment analysis demo](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/main/screenshots/sentimentdemo.png)
+![Sentiment analysis demo](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/tree/main/screenshots/sentimentdemo.png)
 
 #### Google maps API
 
 This feature enabls the user to ask for directions.
 
-![Maps API](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/main/screenshots/API.png)
+![Maps API](https://raw.githubusercontent.com/durvanZ/Chatbot_continued/tree/main/screenshots/api.png)
